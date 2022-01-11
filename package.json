@@ -1,0 +1,16 @@
+{
+  "name": "kodelang",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "peggy src/kodelang-parser.peggy",
+    "test": "mocha",
+    "prepublish": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "peggy": "^1.2.0"
+  }
+}
